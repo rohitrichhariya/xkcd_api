@@ -1,0 +1,10 @@
+projx
+=====
+
+.. toctree::
+   :maxdepth: 4
+
+   database
+   tasks
+   testing
+   xkcd

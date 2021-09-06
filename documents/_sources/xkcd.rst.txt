@@ -1,0 +1,37 @@
+xkcd package
+============
+
+Submodules
+----------
+
+xkcd.comic module
+-----------------
+
+.. automodule:: xkcd.comic
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+xkcd.comicrequest module
+------------------------
+
+.. automodule:: xkcd.comicrequest
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+xkcd.xkcdapi module
+-------------------
+
+.. automodule:: xkcd.xkcdapi
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+Module contents
+---------------
+
+.. automodule:: xkcd
+   :members:
+   :undoc-members:
+   :show-inheritance:

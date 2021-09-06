@@ -1,0 +1,53 @@
+testing package
+===============
+
+Submodules
+----------
+
+testing.mock\_db module
+-----------------------
+
+.. automodule:: testing.mock_db
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+testing.test\_comic module
+--------------------------
+
+.. automodule:: testing.test_comic
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+testing.test\_comicrequest module
+---------------------------------
+
+.. automodule:: testing.test_comicrequest
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+testing.test\_mysqldb module
+----------------------------
+
+.. automodule:: testing.test_mysqldb
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+testing.test\_xkcdapi module
+----------------------------
+
+.. automodule:: testing.test_xkcdapi
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+Module contents
+---------------
+
+.. automodule:: testing
+   :members:
+   :undoc-members:
+   :show-inheritance:

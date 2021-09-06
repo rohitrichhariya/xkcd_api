@@ -1,0 +1,45 @@
+tasks package
+=============
+
+Submodules
+----------
+
+tasks.config module
+-------------------
+
+.. automodule:: tasks.config
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+tasks.task\_get\_15\_random\_comic module
+-----------------------------------------
+
+.. automodule:: tasks.task_get_15_random_comic
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+tasks.task\_one module
+----------------------
+
+.. automodule:: tasks.task_one
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+tasks.task\_two\_save\_to\_db module
+------------------------------------
+
+.. automodule:: tasks.task_two_save_to_db
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+Module contents
+---------------
+
+.. automodule:: tasks
+   :members:
+   :undoc-members:
+   :show-inheritance:
