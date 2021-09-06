@@ -1,6 +1,18 @@
 
 ### [Click Here for Documentation](https://htmlpreview.github.io/?https://github.com/rohitrichhariya/xkcd_api/blob/main/documents/index.html)
 
+### Modules details
+
+#### [1.tasks](https://htmlpreview.github.io/?https://github.com/rohitrichhariya/xkcd_api/blob/main/documents/tasks.html)
+
+#### [2.testing](https://htmlpreview.github.io/?https://github.com/rohitrichhariya/xkcd_api/blob/main/documents/testing.html)
+
+#### [3.xkcd](https://htmlpreview.github.io/?https://github.com/rohitrichhariya/xkcd_api/blob/main/documents/xkcd.html)
+
+#### [4.database](https://htmlpreview.github.io/?https://github.com/rohitrichhariya/xkcd_api/blob/main/documents/database.html)
+
+
+
 1 . A Python pakages for the [xkcd webcomic] API.
 
 usages 
