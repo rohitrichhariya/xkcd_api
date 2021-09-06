@@ -1,0 +1,159 @@
+
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.17.1: http://docutils.sourceforge.net/" />
+
+    <title>database package &#8212; xkcd API 0.0.1 documentation</title>
+    <link rel="stylesheet" type="text/css" href="_static/pygments.css" />
+    <link rel="stylesheet" type="text/css" href="_static/alabaster.css" />
+    <script data-url_root="./" id="documentation_options" src="_static/documentation_options.js"></script>
+    <script src="_static/jquery.js"></script>
+    <script src="_static/underscore.js"></script>
+    <script src="_static/doctools.js"></script>
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+   
+  <link rel="stylesheet" href="_static/custom.css" type="text/css" />
+  
+  
+  <meta name="viewport" content="width=device-width, initial-scale=0.9, maximum-scale=0.9" />
+
+  </head><body>
+  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          
+
+          <div class="body" role="main">
+            
+  <section id="database-package">
+<h1>database package<a class="headerlink" href="#database-package" title="Permalink to this headline">¶</a></h1>
+<section id="submodules">
+<h2>Submodules<a class="headerlink" href="#submodules" title="Permalink to this headline">¶</a></h2>
+</section>
+<section id="module-database.mysqldb">
+<span id="database-mysqldb-module"></span><h2>database.mysqldb module<a class="headerlink" href="#module-database.mysqldb" title="Permalink to this headline">¶</a></h2>
+<dl class="py class">
+<dt class="sig sig-object py" id="database.mysqldb.MySqlDB">
+<em class="property"><span class="pre">class</span> </em><span class="sig-prename descclassname"><span class="pre">database.mysqldb.</span></span><span class="sig-name descname"><span class="pre">MySqlDB</span></span><a class="reference internal" href="_modules/database/mysqldb.html#MySqlDB"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#database.mysqldb.MySqlDB" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal notranslate"><span class="pre">object</span></code></p>
+<p>MySqlDB class contain the methods which require to intact with mysql database</p>
+<dl class="py method">
+<dt class="sig sig-object py" id="database.mysqldb.MySqlDB.close">
+<span class="sig-name descname"><span class="pre">close</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="reference internal" href="_modules/database/mysqldb.html#MySqlDB.close"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#database.mysqldb.MySqlDB.close" title="Permalink to this definition">¶</a></dt>
+<dd><p>close the mysql connection</p>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="database.mysqldb.MySqlDB.commit">
+<span class="sig-name descname"><span class="pre">commit</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="reference internal" href="_modules/database/mysqldb.html#MySqlDB.commit"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#database.mysqldb.MySqlDB.commit" title="Permalink to this definition">¶</a></dt>
+<dd><p>commit the mysql database changes</p>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="database.mysqldb.MySqlDB.connect">
+<span class="sig-name descname"><span class="pre">connect</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">host</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">database</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">user</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="_modules/database/mysqldb.html#MySqlDB.connect"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#database.mysqldb.MySqlDB.connect" title="Permalink to this definition">¶</a></dt>
+<dd><p>Method to connect with mysql database
+Parameters
+———-
+host : str</p>
+<blockquote>
+<div><p>mysql database host ip address</p>
+</div></blockquote>
+<dl class="simple">
+<dt>database<span class="classifier">str</span></dt><dd><p>mysql database database name</p>
+</dd>
+<dt>user<span class="classifier">str</span></dt><dd><p>mysql database user name</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="database.mysqldb.MySqlDB.save_comic_to_db">
+<span class="sig-name descname"><span class="pre">save_comic_to_db</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">com</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="_modules/database/mysqldb.html#MySqlDB.save_comic_to_db"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#database.mysqldb.MySqlDB.save_comic_to_db" title="Permalink to this definition">¶</a></dt>
+<dd><p>Method to save comic details in database comic table
+Parameters
+———-
+com : xkcd Comic</p>
+<blockquote>
+<div><p>object of Comic class</p>
+</div></blockquote>
+</dd></dl>
+
+</dd></dl>
+
+</section>
+<section id="module-database">
+<span id="module-contents"></span><h2>Module contents<a class="headerlink" href="#module-database" title="Permalink to this headline">¶</a></h2>
+</section>
+</section>
+
+
+          </div>
+          
+        </div>
+      </div>
+      <div class="sphinxsidebar" role="navigation" aria-label="main navigation">
+        <div class="sphinxsidebarwrapper">
+<h1 class="logo"><a href="index.html">xkcd API</a></h1>
+
+
+
+
+
+
+
+
+<h3>Navigation</h3>
+
+<div class="relations">
+<h3>Related Topics</h3>
+<ul>
+  <li><a href="index.html">Documentation overview</a><ul>
+  </ul></li>
+</ul>
+</div>
+<div id="searchbox" style="display: none" role="search">
+  <h3 id="searchlabel">Quick search</h3>
+    <div class="searchformwrapper">
+    <form class="search" action="search.html" method="get">
+      <input type="text" name="q" aria-labelledby="searchlabel" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false"/>
+      <input type="submit" value="Go" />
+    </form>
+    </div>
+</div>
+<script>$('#searchbox').show(0);</script>
+
+
+
+
+
+
+
+
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="footer">
+      &copy;2021, Rohit Richhariya.
+      
+      |
+      Powered by <a href="http://sphinx-doc.org/">Sphinx 4.1.2</a>
+      &amp; <a href="https://github.com/bitprophet/alabaster">Alabaster 0.7.12</a>
+      
+      |
+      <a href="_sources/database.rst.txt"
+          rel="nofollow">Page source</a>
+    </div>
+
+    
+
+    
+  </body>
+</html>
