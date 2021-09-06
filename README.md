@@ -1,4 +1,7 @@
-1 . A Python pakages for the [xkcd webcomic](https://xkcd.com/) API.
+
+### [Click Here for Documentation](https://htmlpreview.github.io/?https://github.com/rohitrichhariya/xkcd_api/blob/main/documents/index.html)
+
+1 . A Python pakages for the [xkcd webcomic] API.
 
 usages 
 >>>import xkcd.comicrequest as cr
